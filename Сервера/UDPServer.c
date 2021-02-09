@@ -62,8 +62,8 @@ void UDPserver(int port, int man)
                     threadArgs -> busy = &busy[score];        /* Указываю адрес флажка, чтобы в конце обозначить что связь с клиенто окончена */    
                     if (pthread_create(&threadID, NULL, ThreadMainUDP, (void *)threadArgs) != 0) /* Создаю поток */
                         DieWithError("pthread_create() failed");
-                    char port[5] = {};                             /* Преобразую строку для передачи порта клиенту */
-                    snprintf(port, 5, "%u", ServPort[score]);      /* Преобразую число в строку */
+                    char port[6] = {};                             /* Преобразую строку для передачи порта клиенту */
+                    snprintf(port, 6, "%u", ServPort[score]);      /* Преобразую число в строку */
                     if (sendto(sock, port, sizeof(port), 0,        /* Отправляю порт клиенту */
                                (struct sockaddr *)&ClntAddr, sizeof(ClntAddr)) < 0)
                         DieWithError("sendto() sending failed");
