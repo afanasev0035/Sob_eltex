@@ -10,29 +10,29 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/3.16.3/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/3.16.3/CompilerIdC/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_f7ed0/fast && /usr/bin/make -f CMakeFiles/cmTC_f7ed0.dir/build.make CMakeFiles/cmTC_f7ed0.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_f7ed0.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_f7ed0.dir/testCCompiler.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/testCCompiler.c"
-Linking C executable cmTC_f7ed0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7ed0.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f7ed0.dir/testCCompiler.c.o  -o cmTC_f7ed0 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_4c1dd/fast && /usr/bin/make -f CMakeFiles/cmTC_4c1dd.dir/build.make CMakeFiles/cmTC_4c1dd.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_4c1dd.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4c1dd.dir/testCCompiler.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/testCCompiler.c"
+Linking C executable cmTC_4c1dd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c1dd.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4c1dd.dir/testCCompiler.c.o  -o cmTC_4c1dd 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_b9c09/fast && /usr/bin/make -f CMakeFiles/cmTC_b9c09.dir/build.make CMakeFiles/cmTC_b9c09.dir/build
-make[1]: Entering directory '/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b9c09.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc   -v -o CMakeFiles/cmTC_b9c09.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Run Build Command(s):/usr/bin/make cmTC_6ff18/fast && /usr/bin/make -f CMakeFiles/cmTC_6ff18.dir/build.make CMakeFiles/cmTC_6ff18.dir/build
+make[1]: Entering directory '/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6ff18.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_6ff18.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 OFFLOAD_TARGET_NAMES=nvptx-none:hsa
@@ -41,8 +41,8 @@ Target: x86_64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
 gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b9c09.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_b9c09.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccCHdlrn.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6ff18.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_6ff18.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccMOZIUt.s
 GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
 	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
 
@@ -62,15 +62,15 @@ GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: bbf13931d8de1abe14040c9909cb6969
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b9c09.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
- as -v --64 -o CMakeFiles/cmTC_b9c09.dir/CMakeCCompilerABI.c.o /tmp/ccCHdlrn.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6ff18.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_6ff18.dir/CMakeCCompilerABI.c.o /tmp/ccMOZIUt.s
 GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b9c09.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
-Linking C executable cmTC_b9c09
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9c09.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_b9c09.dir/CMakeCCompilerABI.c.o  -o cmTC_b9c09 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6ff18.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_6ff18
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ff18.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_6ff18.dir/CMakeCCompilerABI.c.o  -o cmTC_6ff18 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
@@ -82,10 +82,10 @@ Thread model: posix
 gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b9c09' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1WYTEP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b9c09 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_b9c09.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b9c09' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6ff18' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccK3svEW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_6ff18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_6ff18.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6ff18' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp'
 
 
 
@@ -106,12 +106,12 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_b9c09/fast && /usr/bin/make -f CMakeFiles/cmTC_b9c09.dir/build.make CMakeFiles/cmTC_b9c09.dir/build]
-  ignore line: [make[1]: Entering directory '/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_b9c09.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_b9c09.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_6ff18/fast && /usr/bin/make -f CMakeFiles/cmTC_6ff18.dir/build.make CMakeFiles/cmTC_6ff18.dir/build]
+  ignore line: [make[1]: Entering directory '/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_6ff18.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_6ff18.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
@@ -120,8 +120,8 @@ Parsed C implicit link information from above output:
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b9c09.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_b9c09.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccCHdlrn.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6ff18.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_6ff18.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccMOZIUt.s]
   ignore line: [GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
   ignore line: []
@@ -141,15 +141,15 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: bbf13931d8de1abe14040c9909cb6969]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b9c09.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_b9c09.dir/CMakeCCompilerABI.c.o /tmp/ccCHdlrn.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6ff18.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_6ff18.dir/CMakeCCompilerABI.c.o /tmp/ccMOZIUt.s]
   ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b9c09.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking C executable cmTC_b9c09]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9c09.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_b9c09.dir/CMakeCCompilerABI.c.o  -o cmTC_b9c09 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6ff18.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_6ff18]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ff18.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_6ff18.dir/CMakeCCompilerABI.c.o  -o cmTC_6ff18 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
@@ -161,13 +161,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b9c09' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1WYTEP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b9c09 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_b9c09.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6ff18' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccK3svEW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_6ff18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_6ff18.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc1WYTEP.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccK3svEW.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -186,7 +186,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_b9c09] ==> ignore
+    arg [cmTC_6ff18] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
@@ -198,7 +198,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
-    arg [CMakeFiles/cmTC_b9c09.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_6ff18.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -226,33 +226,33 @@ Parsed C implicit link information from above output:
 
 
 Determining if the include file sys/resource.h exists passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_8d4bf/fast && /usr/bin/make -f CMakeFiles/cmTC_8d4bf.dir/build.make CMakeFiles/cmTC_8d4bf.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_8d4bf.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_8d4bf.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
-Linking C executable cmTC_8d4bf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d4bf.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8d4bf.dir/CheckIncludeFile.c.o  -o cmTC_8d4bf 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_d352d/fast && /usr/bin/make -f CMakeFiles/cmTC_d352d.dir/build.make CMakeFiles/cmTC_d352d.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_d352d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d352d.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_d352d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d352d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d352d.dir/CheckIncludeFile.c.o  -o cmTC_d352d 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
 
 Determining if the getrusage exist passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_adb64/fast && /usr/bin/make -f CMakeFiles/cmTC_adb64.dir/build.make CMakeFiles/cmTC_adb64.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_adb64.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_adb64.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
-Linking C executable cmTC_adb64
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_adb64.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_adb64.dir/CheckSymbolExists.c.o  -o cmTC_adb64 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_29952/fast && /usr/bin/make -f CMakeFiles/cmTC_29952.dir/build.make CMakeFiles/cmTC_29952.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_29952.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_29952.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_29952
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29952.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_29952.dir/CheckSymbolExists.c.o  -o cmTC_29952 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
-File /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <sys/resource.h>
 
@@ -267,299 +267,299 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the include file fcntl.h exists passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_abc71/fast && /usr/bin/make -f CMakeFiles/cmTC_abc71.dir/build.make CMakeFiles/cmTC_abc71.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_abc71.dir/CheckIncludeFile.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_abc71.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
-Linking C executable cmTC_abc71
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abc71.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_abc71.dir/CheckIncludeFile.c.o  -o cmTC_abc71  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_f187c/fast && /usr/bin/make -f CMakeFiles/cmTC_f187c.dir/build.make CMakeFiles/cmTC_f187c.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_f187c.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_f187c.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_f187c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f187c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f187c.dir/CheckIncludeFile.c.o  -o cmTC_f187c  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
 
 Determining if the include file inttypes.h exists passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_88ab9/fast && /usr/bin/make -f CMakeFiles/cmTC_88ab9.dir/build.make CMakeFiles/cmTC_88ab9.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_88ab9.dir/CheckIncludeFile.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_88ab9.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
-Linking C executable cmTC_88ab9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88ab9.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_88ab9.dir/CheckIncludeFile.c.o  -o cmTC_88ab9  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_54fbb/fast && /usr/bin/make -f CMakeFiles/cmTC_54fbb.dir/build.make CMakeFiles/cmTC_54fbb.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_54fbb.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_54fbb.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_54fbb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54fbb.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_54fbb.dir/CheckIncludeFile.c.o  -o cmTC_54fbb  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
 
 Determining if the include file stdarg.h exists passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_b79f3/fast && /usr/bin/make -f CMakeFiles/cmTC_b79f3.dir/build.make CMakeFiles/cmTC_b79f3.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_b79f3.dir/CheckIncludeFile.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_b79f3.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
-Linking C executable cmTC_b79f3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b79f3.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b79f3.dir/CheckIncludeFile.c.o  -o cmTC_b79f3  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_6797d/fast && /usr/bin/make -f CMakeFiles/cmTC_6797d.dir/build.make CMakeFiles/cmTC_6797d.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_6797d.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_6797d.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_6797d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6797d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6797d.dir/CheckIncludeFile.c.o  -o cmTC_6797d  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
 
 Determining if the include file strings.h exists passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_a2cfd/fast && /usr/bin/make -f CMakeFiles/cmTC_a2cfd.dir/build.make CMakeFiles/cmTC_a2cfd.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_a2cfd.dir/CheckIncludeFile.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_a2cfd.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
-Linking C executable cmTC_a2cfd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2cfd.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a2cfd.dir/CheckIncludeFile.c.o  -o cmTC_a2cfd  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_d0538/fast && /usr/bin/make -f CMakeFiles/cmTC_d0538.dir/build.make CMakeFiles/cmTC_d0538.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_d0538.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_d0538.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_d0538
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0538.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d0538.dir/CheckIncludeFile.c.o  -o cmTC_d0538  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
 
 Determining if the include file string.h exists passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_e963d/fast && /usr/bin/make -f CMakeFiles/cmTC_e963d.dir/build.make CMakeFiles/cmTC_e963d.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_e963d.dir/CheckIncludeFile.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_e963d.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
-Linking C executable cmTC_e963d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e963d.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e963d.dir/CheckIncludeFile.c.o  -o cmTC_e963d  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_5afd8/fast && /usr/bin/make -f CMakeFiles/cmTC_5afd8.dir/build.make CMakeFiles/cmTC_5afd8.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_5afd8.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_5afd8.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_5afd8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5afd8.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5afd8.dir/CheckIncludeFile.c.o  -o cmTC_5afd8  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
 
 Determining if the include file syslog.h exists passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_a72dd/fast && /usr/bin/make -f CMakeFiles/cmTC_a72dd.dir/build.make CMakeFiles/cmTC_a72dd.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_a72dd.dir/CheckIncludeFile.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_a72dd.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
-Linking C executable cmTC_a72dd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a72dd.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a72dd.dir/CheckIncludeFile.c.o  -o cmTC_a72dd  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_7f196/fast && /usr/bin/make -f CMakeFiles/cmTC_7f196.dir/build.make CMakeFiles/cmTC_7f196.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_7f196.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_7f196.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_7f196
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f196.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7f196.dir/CheckIncludeFile.c.o  -o cmTC_7f196  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
 
 Determining if files stdlib.h;stdarg.h;string.h;float.h exist passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_08437/fast && /usr/bin/make -f CMakeFiles/cmTC_08437.dir/build.make CMakeFiles/cmTC_08437.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_08437.dir/STDC_HEADERS.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_08437.dir/STDC_HEADERS.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CheckIncludeFiles/STDC_HEADERS.c"
-Linking C executable cmTC_08437
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08437.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_08437.dir/STDC_HEADERS.c.o  -o cmTC_08437  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_19cbb/fast && /usr/bin/make -f CMakeFiles/cmTC_19cbb.dir/build.make CMakeFiles/cmTC_19cbb.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_19cbb.dir/STDC_HEADERS.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_19cbb.dir/STDC_HEADERS.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CheckIncludeFiles/STDC_HEADERS.c"
+Linking C executable cmTC_19cbb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19cbb.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_19cbb.dir/STDC_HEADERS.c.o  -o cmTC_19cbb  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
 
 Determining if the include file unistd.h exists passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_d13d3/fast && /usr/bin/make -f CMakeFiles/cmTC_d13d3.dir/build.make CMakeFiles/cmTC_d13d3.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_d13d3.dir/CheckIncludeFile.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_d13d3.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
-Linking C executable cmTC_d13d3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d13d3.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d13d3.dir/CheckIncludeFile.c.o  -o cmTC_d13d3  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_6b270/fast && /usr/bin/make -f CMakeFiles/cmTC_6b270.dir/build.make CMakeFiles/cmTC_6b270.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_6b270.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_6b270.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_6b270
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b270.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6b270.dir/CheckIncludeFile.c.o  -o cmTC_6b270  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
 
 Determining if the include file sys/types.h exists passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_1f23a/fast && /usr/bin/make -f CMakeFiles/cmTC_1f23a.dir/build.make CMakeFiles/cmTC_1f23a.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_1f23a.dir/CheckIncludeFile.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_1f23a.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
-Linking C executable cmTC_1f23a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f23a.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1f23a.dir/CheckIncludeFile.c.o  -o cmTC_1f23a  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_8feb3/fast && /usr/bin/make -f CMakeFiles/cmTC_8feb3.dir/build.make CMakeFiles/cmTC_8feb3.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_8feb3.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_8feb3.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_8feb3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8feb3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8feb3.dir/CheckIncludeFile.c.o  -o cmTC_8feb3  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
 
 Determining if the include file dlfcn.h exists passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_78125/fast && /usr/bin/make -f CMakeFiles/cmTC_78125.dir/build.make CMakeFiles/cmTC_78125.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_78125.dir/CheckIncludeFile.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_78125.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
-Linking C executable cmTC_78125
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78125.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_78125.dir/CheckIncludeFile.c.o  -o cmTC_78125  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_35303/fast && /usr/bin/make -f CMakeFiles/cmTC_35303.dir/build.make CMakeFiles/cmTC_35303.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_35303.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_35303.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_35303
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35303.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_35303.dir/CheckIncludeFile.c.o  -o cmTC_35303  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
 
 Determining if the include file endian.h exists passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_af4a1/fast && /usr/bin/make -f CMakeFiles/cmTC_af4a1.dir/build.make CMakeFiles/cmTC_af4a1.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_af4a1.dir/CheckIncludeFile.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_af4a1.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
-Linking C executable cmTC_af4a1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af4a1.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_af4a1.dir/CheckIncludeFile.c.o  -o cmTC_af4a1  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_a948f/fast && /usr/bin/make -f CMakeFiles/cmTC_a948f.dir/build.make CMakeFiles/cmTC_a948f.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_a948f.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_a948f.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_a948f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a948f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a948f.dir/CheckIncludeFile.c.o  -o cmTC_a948f  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
 
 Determining if the include file limits.h exists passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_0a251/fast && /usr/bin/make -f CMakeFiles/cmTC_0a251.dir/build.make CMakeFiles/cmTC_0a251.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_0a251.dir/CheckIncludeFile.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_0a251.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
-Linking C executable cmTC_0a251
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a251.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0a251.dir/CheckIncludeFile.c.o  -o cmTC_0a251  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_c6047/fast && /usr/bin/make -f CMakeFiles/cmTC_c6047.dir/build.make CMakeFiles/cmTC_c6047.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_c6047.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_c6047.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_c6047
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6047.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c6047.dir/CheckIncludeFile.c.o  -o cmTC_c6047  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
 
 Determining if the include file locale.h exists passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_6eec3/fast && /usr/bin/make -f CMakeFiles/cmTC_6eec3.dir/build.make CMakeFiles/cmTC_6eec3.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_6eec3.dir/CheckIncludeFile.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_6eec3.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
-Linking C executable cmTC_6eec3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6eec3.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6eec3.dir/CheckIncludeFile.c.o  -o cmTC_6eec3  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_c87f4/fast && /usr/bin/make -f CMakeFiles/cmTC_c87f4.dir/build.make CMakeFiles/cmTC_c87f4.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_c87f4.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_c87f4.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_c87f4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c87f4.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c87f4.dir/CheckIncludeFile.c.o  -o cmTC_c87f4  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
 
 Determining if the include file memory.h exists passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_d2e4a/fast && /usr/bin/make -f CMakeFiles/cmTC_d2e4a.dir/build.make CMakeFiles/cmTC_d2e4a.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_d2e4a.dir/CheckIncludeFile.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_d2e4a.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
-Linking C executable cmTC_d2e4a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2e4a.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d2e4a.dir/CheckIncludeFile.c.o  -o cmTC_d2e4a  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_75fcb/fast && /usr/bin/make -f CMakeFiles/cmTC_75fcb.dir/build.make CMakeFiles/cmTC_75fcb.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_75fcb.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_75fcb.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_75fcb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75fcb.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_75fcb.dir/CheckIncludeFile.c.o  -o cmTC_75fcb  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
 
 Determining if the include file stdint.h exists passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_336f8/fast && /usr/bin/make -f CMakeFiles/cmTC_336f8.dir/build.make CMakeFiles/cmTC_336f8.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_336f8.dir/CheckIncludeFile.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_336f8.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
-Linking C executable cmTC_336f8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_336f8.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_336f8.dir/CheckIncludeFile.c.o  -o cmTC_336f8  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_4ce33/fast && /usr/bin/make -f CMakeFiles/cmTC_4ce33.dir/build.make CMakeFiles/cmTC_4ce33.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_4ce33.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_4ce33.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_4ce33
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ce33.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4ce33.dir/CheckIncludeFile.c.o  -o cmTC_4ce33  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
 
 Determining if the include file stdlib.h exists passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_5e151/fast && /usr/bin/make -f CMakeFiles/cmTC_5e151.dir/build.make CMakeFiles/cmTC_5e151.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_5e151.dir/CheckIncludeFile.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_5e151.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
-Linking C executable cmTC_5e151
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e151.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5e151.dir/CheckIncludeFile.c.o  -o cmTC_5e151  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_9cdbd/fast && /usr/bin/make -f CMakeFiles/cmTC_9cdbd.dir/build.make CMakeFiles/cmTC_9cdbd.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_9cdbd.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_9cdbd.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_9cdbd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cdbd.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9cdbd.dir/CheckIncludeFile.c.o  -o cmTC_9cdbd  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
 
 Determining if the include file sys/cdefs.h exists passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_72841/fast && /usr/bin/make -f CMakeFiles/cmTC_72841.dir/build.make CMakeFiles/cmTC_72841.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_72841.dir/CheckIncludeFile.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_72841.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
-Linking C executable cmTC_72841
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72841.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_72841.dir/CheckIncludeFile.c.o  -o cmTC_72841  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_e580f/fast && /usr/bin/make -f CMakeFiles/cmTC_e580f.dir/build.make CMakeFiles/cmTC_e580f.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_e580f.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_e580f.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_e580f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e580f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e580f.dir/CheckIncludeFile.c.o  -o cmTC_e580f  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
 
 Determining if the include file sys/param.h exists passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_2b350/fast && /usr/bin/make -f CMakeFiles/cmTC_2b350.dir/build.make CMakeFiles/cmTC_2b350.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_2b350.dir/CheckIncludeFile.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_2b350.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
-Linking C executable cmTC_2b350
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b350.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2b350.dir/CheckIncludeFile.c.o  -o cmTC_2b350  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_7718c/fast && /usr/bin/make -f CMakeFiles/cmTC_7718c.dir/build.make CMakeFiles/cmTC_7718c.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_7718c.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_7718c.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_7718c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7718c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7718c.dir/CheckIncludeFile.c.o  -o cmTC_7718c  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
 
 Determining if the include file sys/random.h exists passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_19333/fast && /usr/bin/make -f CMakeFiles/cmTC_19333.dir/build.make CMakeFiles/cmTC_19333.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_19333.dir/CheckIncludeFile.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_19333.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
-Linking C executable cmTC_19333
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19333.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_19333.dir/CheckIncludeFile.c.o  -o cmTC_19333  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_9c269/fast && /usr/bin/make -f CMakeFiles/cmTC_9c269.dir/build.make CMakeFiles/cmTC_9c269.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_9c269.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_9c269.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_9c269
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c269.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9c269.dir/CheckIncludeFile.c.o  -o cmTC_9c269  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
 
 Determining if the include file sys/stat.h exists passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_97b55/fast && /usr/bin/make -f CMakeFiles/cmTC_97b55.dir/build.make CMakeFiles/cmTC_97b55.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_97b55.dir/CheckIncludeFile.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_97b55.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
-Linking C executable cmTC_97b55
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97b55.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_97b55.dir/CheckIncludeFile.c.o  -o cmTC_97b55  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_dd1f9/fast && /usr/bin/make -f CMakeFiles/cmTC_dd1f9.dir/build.make CMakeFiles/cmTC_dd1f9.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_dd1f9.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_dd1f9.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_dd1f9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd1f9.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_dd1f9.dir/CheckIncludeFile.c.o  -o cmTC_dd1f9  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
 
 Determining if the INFINITY exist passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_558d1/fast && /usr/bin/make -f CMakeFiles/cmTC_558d1.dir/build.make CMakeFiles/cmTC_558d1.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_558d1.dir/CheckSymbolExists.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_558d1.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
-Linking C executable cmTC_558d1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_558d1.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_558d1.dir/CheckSymbolExists.c.o  -o cmTC_558d1  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_96094/fast && /usr/bin/make -f CMakeFiles/cmTC_96094.dir/build.make CMakeFiles/cmTC_96094.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_96094.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_96094.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_96094
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96094.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_96094.dir/CheckSymbolExists.c.o  -o cmTC_96094  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
-File /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <math.h>
 
@@ -574,19 +574,19 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the isinf exist passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_e3e2a/fast && /usr/bin/make -f CMakeFiles/cmTC_e3e2a.dir/build.make CMakeFiles/cmTC_e3e2a.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_e3e2a.dir/CheckSymbolExists.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_e3e2a.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
-Linking C executable cmTC_e3e2a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3e2a.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e3e2a.dir/CheckSymbolExists.c.o  -o cmTC_e3e2a  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_7f0f9/fast && /usr/bin/make -f CMakeFiles/cmTC_7f0f9.dir/build.make CMakeFiles/cmTC_7f0f9.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_7f0f9.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_7f0f9.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_7f0f9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f0f9.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7f0f9.dir/CheckSymbolExists.c.o  -o cmTC_7f0f9  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
-File /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <math.h>
 
@@ -601,19 +601,19 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the isnan exist passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_5e997/fast && /usr/bin/make -f CMakeFiles/cmTC_5e997.dir/build.make CMakeFiles/cmTC_5e997.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_5e997.dir/CheckSymbolExists.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_5e997.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
-Linking C executable cmTC_5e997
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e997.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5e997.dir/CheckSymbolExists.c.o  -o cmTC_5e997  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_f8f02/fast && /usr/bin/make -f CMakeFiles/cmTC_f8f02.dir/build.make CMakeFiles/cmTC_f8f02.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_f8f02.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_f8f02.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_f8f02
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8f02.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f8f02.dir/CheckSymbolExists.c.o  -o cmTC_f8f02  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
-File /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <math.h>
 
@@ -628,19 +628,19 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the nan exist passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_243c0/fast && /usr/bin/make -f CMakeFiles/cmTC_243c0.dir/build.make CMakeFiles/cmTC_243c0.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_243c0.dir/CheckSymbolExists.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_243c0.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
-Linking C executable cmTC_243c0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_243c0.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_243c0.dir/CheckSymbolExists.c.o  -o cmTC_243c0  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_5cd2c/fast && /usr/bin/make -f CMakeFiles/cmTC_5cd2c.dir/build.make CMakeFiles/cmTC_5cd2c.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_5cd2c.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_5cd2c.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_5cd2c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cd2c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5cd2c.dir/CheckSymbolExists.c.o  -o cmTC_5cd2c  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
-File /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <math.h>
 
@@ -655,19 +655,19 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the snprintf exist passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_823c2/fast && /usr/bin/make -f CMakeFiles/cmTC_823c2.dir/build.make CMakeFiles/cmTC_823c2.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_823c2.dir/CheckSymbolExists.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_823c2.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
-Linking C executable cmTC_823c2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_823c2.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_823c2.dir/CheckSymbolExists.c.o  -o cmTC_823c2  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_e56a9/fast && /usr/bin/make -f CMakeFiles/cmTC_e56a9.dir/build.make CMakeFiles/cmTC_e56a9.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_e56a9.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_e56a9.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_e56a9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e56a9.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e56a9.dir/CheckSymbolExists.c.o  -o cmTC_e56a9  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
-File /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdio.h>
 
@@ -682,19 +682,19 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the vasprintf exist passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_3a51d/fast && /usr/bin/make -f CMakeFiles/cmTC_3a51d.dir/build.make CMakeFiles/cmTC_3a51d.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_3a51d.dir/CheckSymbolExists.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_3a51d.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
-Linking C executable cmTC_3a51d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a51d.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3a51d.dir/CheckSymbolExists.c.o  -o cmTC_3a51d  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_21bf8/fast && /usr/bin/make -f CMakeFiles/cmTC_21bf8.dir/build.make CMakeFiles/cmTC_21bf8.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_21bf8.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_21bf8.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_21bf8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21bf8.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_21bf8.dir/CheckSymbolExists.c.o  -o cmTC_21bf8  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
-File /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdio.h>
 
@@ -709,19 +709,19 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the vsnprintf exist passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_93716/fast && /usr/bin/make -f CMakeFiles/cmTC_93716.dir/build.make CMakeFiles/cmTC_93716.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_93716.dir/CheckSymbolExists.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_93716.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
-Linking C executable cmTC_93716
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93716.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_93716.dir/CheckSymbolExists.c.o  -o cmTC_93716  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_fed0a/fast && /usr/bin/make -f CMakeFiles/cmTC_fed0a.dir/build.make CMakeFiles/cmTC_fed0a.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_fed0a.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_fed0a.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_fed0a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fed0a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_fed0a.dir/CheckSymbolExists.c.o  -o cmTC_fed0a  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
-File /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdio.h>
 
@@ -736,19 +736,19 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the vprintf exist passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_1d365/fast && /usr/bin/make -f CMakeFiles/cmTC_1d365.dir/build.make CMakeFiles/cmTC_1d365.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_1d365.dir/CheckSymbolExists.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_1d365.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
-Linking C executable cmTC_1d365
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d365.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1d365.dir/CheckSymbolExists.c.o  -o cmTC_1d365  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_adcee/fast && /usr/bin/make -f CMakeFiles/cmTC_adcee.dir/build.make CMakeFiles/cmTC_adcee.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_adcee.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_adcee.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_adcee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_adcee.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_adcee.dir/CheckSymbolExists.c.o  -o cmTC_adcee  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
-File /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdio.h>
 
@@ -763,19 +763,19 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the open exist passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_3cf4a/fast && /usr/bin/make -f CMakeFiles/cmTC_3cf4a.dir/build.make CMakeFiles/cmTC_3cf4a.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_3cf4a.dir/CheckSymbolExists.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_3cf4a.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
-Linking C executable cmTC_3cf4a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3cf4a.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3cf4a.dir/CheckSymbolExists.c.o  -o cmTC_3cf4a  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_a0b67/fast && /usr/bin/make -f CMakeFiles/cmTC_a0b67.dir/build.make CMakeFiles/cmTC_a0b67.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_a0b67.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_a0b67.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_a0b67
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0b67.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a0b67.dir/CheckSymbolExists.c.o  -o cmTC_a0b67  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
-File /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <fcntl.h>
 
@@ -790,19 +790,19 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the realloc exist passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_dfd6e/fast && /usr/bin/make -f CMakeFiles/cmTC_dfd6e.dir/build.make CMakeFiles/cmTC_dfd6e.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_dfd6e.dir/CheckSymbolExists.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_dfd6e.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
-Linking C executable cmTC_dfd6e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfd6e.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_dfd6e.dir/CheckSymbolExists.c.o  -o cmTC_dfd6e  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_2242a/fast && /usr/bin/make -f CMakeFiles/cmTC_2242a.dir/build.make CMakeFiles/cmTC_2242a.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_2242a.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_2242a.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_2242a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2242a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2242a.dir/CheckSymbolExists.c.o  -o cmTC_2242a  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
-File /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdlib.h>
 
@@ -817,19 +817,19 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the setlocale exist passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_10b45/fast && /usr/bin/make -f CMakeFiles/cmTC_10b45.dir/build.make CMakeFiles/cmTC_10b45.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_10b45.dir/CheckSymbolExists.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_10b45.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
-Linking C executable cmTC_10b45
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10b45.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_10b45.dir/CheckSymbolExists.c.o  -o cmTC_10b45  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_e8512/fast && /usr/bin/make -f CMakeFiles/cmTC_e8512.dir/build.make CMakeFiles/cmTC_e8512.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_e8512.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_e8512.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_e8512
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8512.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e8512.dir/CheckSymbolExists.c.o  -o cmTC_e8512  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
-File /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <locale.h>
 
@@ -844,19 +844,19 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the uselocale exist passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_fee58/fast && /usr/bin/make -f CMakeFiles/cmTC_fee58.dir/build.make CMakeFiles/cmTC_fee58.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_fee58.dir/CheckSymbolExists.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_fee58.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
-Linking C executable cmTC_fee58
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fee58.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_fee58.dir/CheckSymbolExists.c.o  -o cmTC_fee58  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_7cef7/fast && /usr/bin/make -f CMakeFiles/cmTC_7cef7.dir/build.make CMakeFiles/cmTC_7cef7.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_7cef7.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_7cef7.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_7cef7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cef7.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7cef7.dir/CheckSymbolExists.c.o  -o cmTC_7cef7  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
-File /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <locale.h>
 
@@ -871,19 +871,19 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the strcasecmp exist passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_d3d65/fast && /usr/bin/make -f CMakeFiles/cmTC_d3d65.dir/build.make CMakeFiles/cmTC_d3d65.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_d3d65.dir/CheckSymbolExists.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_d3d65.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
-Linking C executable cmTC_d3d65
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3d65.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d3d65.dir/CheckSymbolExists.c.o  -o cmTC_d3d65  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_3951b/fast && /usr/bin/make -f CMakeFiles/cmTC_3951b.dir/build.make CMakeFiles/cmTC_3951b.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_3951b.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_3951b.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_3951b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3951b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3951b.dir/CheckSymbolExists.c.o  -o cmTC_3951b  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
-File /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <strings.h>
 
@@ -898,19 +898,19 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the strncasecmp exist passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_37c6e/fast && /usr/bin/make -f CMakeFiles/cmTC_37c6e.dir/build.make CMakeFiles/cmTC_37c6e.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_37c6e.dir/CheckSymbolExists.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_37c6e.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
-Linking C executable cmTC_37c6e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37c6e.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_37c6e.dir/CheckSymbolExists.c.o  -o cmTC_37c6e  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_a7f8a/fast && /usr/bin/make -f CMakeFiles/cmTC_a7f8a.dir/build.make CMakeFiles/cmTC_a7f8a.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_a7f8a.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_a7f8a.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_a7f8a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7f8a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a7f8a.dir/CheckSymbolExists.c.o  -o cmTC_a7f8a  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
-File /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <strings.h>
 
@@ -925,19 +925,19 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the strdup exist passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_0fd9f/fast && /usr/bin/make -f CMakeFiles/cmTC_0fd9f.dir/build.make CMakeFiles/cmTC_0fd9f.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_0fd9f.dir/CheckSymbolExists.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_0fd9f.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
-Linking C executable cmTC_0fd9f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0fd9f.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0fd9f.dir/CheckSymbolExists.c.o  -o cmTC_0fd9f  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_e4b26/fast && /usr/bin/make -f CMakeFiles/cmTC_e4b26.dir/build.make CMakeFiles/cmTC_e4b26.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_e4b26.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_e4b26.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_e4b26
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4b26.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e4b26.dir/CheckSymbolExists.c.o  -o cmTC_e4b26  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
-File /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <string.h>
 
@@ -952,19 +952,19 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the strerror exist passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_dfa0c/fast && /usr/bin/make -f CMakeFiles/cmTC_dfa0c.dir/build.make CMakeFiles/cmTC_dfa0c.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_dfa0c.dir/CheckSymbolExists.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_dfa0c.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
-Linking C executable cmTC_dfa0c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfa0c.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_dfa0c.dir/CheckSymbolExists.c.o  -o cmTC_dfa0c  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_b06d8/fast && /usr/bin/make -f CMakeFiles/cmTC_b06d8.dir/build.make CMakeFiles/cmTC_b06d8.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_b06d8.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_b06d8.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_b06d8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b06d8.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b06d8.dir/CheckSymbolExists.c.o  -o cmTC_b06d8  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
-File /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <string.h>
 
@@ -979,19 +979,19 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the vsyslog exist passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_aa612/fast && /usr/bin/make -f CMakeFiles/cmTC_aa612.dir/build.make CMakeFiles/cmTC_aa612.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_aa612.dir/CheckSymbolExists.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_aa612.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
-Linking C executable cmTC_aa612
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa612.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_aa612.dir/CheckSymbolExists.c.o  -o cmTC_aa612  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_f4fd0/fast && /usr/bin/make -f CMakeFiles/cmTC_f4fd0.dir/build.make CMakeFiles/cmTC_f4fd0.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_f4fd0.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_f4fd0.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_f4fd0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4fd0.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f4fd0.dir/CheckSymbolExists.c.o  -o cmTC_f4fd0  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
-File /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <syslog.h>
 
@@ -1006,19 +1006,19 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the getrandom exist passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_35f8f/fast && /usr/bin/make -f CMakeFiles/cmTC_35f8f.dir/build.make CMakeFiles/cmTC_35f8f.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_35f8f.dir/CheckSymbolExists.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_35f8f.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
-Linking C executable cmTC_35f8f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35f8f.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_35f8f.dir/CheckSymbolExists.c.o  -o cmTC_35f8f  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_9a6a1/fast && /usr/bin/make -f CMakeFiles/cmTC_9a6a1.dir/build.make CMakeFiles/cmTC_9a6a1.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_9a6a1.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_9a6a1.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_9a6a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a6a1.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9a6a1.dir/CheckSymbolExists.c.o  -o cmTC_9a6a1  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
-File /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <sys/random.h>
 
@@ -1033,19 +1033,19 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the strtoll exist passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_770a7/fast && /usr/bin/make -f CMakeFiles/cmTC_770a7.dir/build.make CMakeFiles/cmTC_770a7.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_770a7.dir/CheckSymbolExists.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_770a7.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
-Linking C executable cmTC_770a7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_770a7.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_770a7.dir/CheckSymbolExists.c.o  -o cmTC_770a7  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_b3c72/fast && /usr/bin/make -f CMakeFiles/cmTC_b3c72.dir/build.make CMakeFiles/cmTC_b3c72.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_b3c72.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_b3c72.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_b3c72
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3c72.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b3c72.dir/CheckSymbolExists.c.o  -o cmTC_b3c72  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
-File /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdlib.h>
 
@@ -1060,19 +1060,19 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the strtoull exist passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_25fd3/fast && /usr/bin/make -f CMakeFiles/cmTC_25fd3.dir/build.make CMakeFiles/cmTC_25fd3.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_25fd3.dir/CheckSymbolExists.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_25fd3.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
-Linking C executable cmTC_25fd3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25fd3.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_25fd3.dir/CheckSymbolExists.c.o  -o cmTC_25fd3  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_de3fd/fast && /usr/bin/make -f CMakeFiles/cmTC_de3fd.dir/build.make CMakeFiles/cmTC_de3fd.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_de3fd.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_de3fd.dir/CheckSymbolExists.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_de3fd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de3fd.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_de3fd.dir/CheckSymbolExists.c.o  -o cmTC_de3fd  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
-File /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdlib.h>
 
@@ -1087,144 +1087,144 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the include file stddef.h exists passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_abf81/fast && /usr/bin/make -f CMakeFiles/cmTC_abf81.dir/build.make CMakeFiles/cmTC_abf81.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_abf81.dir/CheckIncludeFile.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_abf81.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
-Linking C executable cmTC_abf81
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abf81.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_abf81.dir/CheckIncludeFile.c.o  -o cmTC_abf81  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_3bdf6/fast && /usr/bin/make -f CMakeFiles/cmTC_3bdf6.dir/build.make CMakeFiles/cmTC_3bdf6.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_3bdf6.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_3bdf6.dir/CheckIncludeFile.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_3bdf6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bdf6.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3bdf6.dir/CheckIncludeFile.c.o  -o cmTC_3bdf6  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
 
 Determining size of int passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_eec58/fast && /usr/bin/make -f CMakeFiles/cmTC_eec58.dir/build.make CMakeFiles/cmTC_eec58.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_eec58.dir/SIZEOF_INT.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_eec58.dir/SIZEOF_INT.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CheckTypeSize/SIZEOF_INT.c"
-Linking C executable cmTC_eec58
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eec58.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_eec58.dir/SIZEOF_INT.c.o  -o cmTC_eec58  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_7d7ed/fast && /usr/bin/make -f CMakeFiles/cmTC_7d7ed.dir/build.make CMakeFiles/cmTC_7d7ed.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_7d7ed.dir/SIZEOF_INT.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_7d7ed.dir/SIZEOF_INT.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CheckTypeSize/SIZEOF_INT.c"
+Linking C executable cmTC_7d7ed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d7ed.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7d7ed.dir/SIZEOF_INT.c.o  -o cmTC_7d7ed  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
 
 Determining size of int64_t passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_f9915/fast && /usr/bin/make -f CMakeFiles/cmTC_f9915.dir/build.make CMakeFiles/cmTC_f9915.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_f9915.dir/SIZEOF_INT64_T.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_f9915.dir/SIZEOF_INT64_T.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CheckTypeSize/SIZEOF_INT64_T.c"
-Linking C executable cmTC_f9915
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9915.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f9915.dir/SIZEOF_INT64_T.c.o  -o cmTC_f9915  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_57c05/fast && /usr/bin/make -f CMakeFiles/cmTC_57c05.dir/build.make CMakeFiles/cmTC_57c05.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_57c05.dir/SIZEOF_INT64_T.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_57c05.dir/SIZEOF_INT64_T.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CheckTypeSize/SIZEOF_INT64_T.c"
+Linking C executable cmTC_57c05
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57c05.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_57c05.dir/SIZEOF_INT64_T.c.o  -o cmTC_57c05  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
 
 Determining size of long passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_f634d/fast && /usr/bin/make -f CMakeFiles/cmTC_f634d.dir/build.make CMakeFiles/cmTC_f634d.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_f634d.dir/SIZEOF_LONG.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_f634d.dir/SIZEOF_LONG.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CheckTypeSize/SIZEOF_LONG.c"
-Linking C executable cmTC_f634d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f634d.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f634d.dir/SIZEOF_LONG.c.o  -o cmTC_f634d  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_516e7/fast && /usr/bin/make -f CMakeFiles/cmTC_516e7.dir/build.make CMakeFiles/cmTC_516e7.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_516e7.dir/SIZEOF_LONG.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_516e7.dir/SIZEOF_LONG.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CheckTypeSize/SIZEOF_LONG.c"
+Linking C executable cmTC_516e7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_516e7.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_516e7.dir/SIZEOF_LONG.c.o  -o cmTC_516e7  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
 
 Determining size of long long passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_b5673/fast && /usr/bin/make -f CMakeFiles/cmTC_b5673.dir/build.make CMakeFiles/cmTC_b5673.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_b5673.dir/SIZEOF_LONG_LONG.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_b5673.dir/SIZEOF_LONG_LONG.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CheckTypeSize/SIZEOF_LONG_LONG.c"
-Linking C executable cmTC_b5673
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5673.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b5673.dir/SIZEOF_LONG_LONG.c.o  -o cmTC_b5673  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_3f075/fast && /usr/bin/make -f CMakeFiles/cmTC_3f075.dir/build.make CMakeFiles/cmTC_3f075.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_3f075.dir/SIZEOF_LONG_LONG.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_3f075.dir/SIZEOF_LONG_LONG.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CheckTypeSize/SIZEOF_LONG_LONG.c"
+Linking C executable cmTC_3f075
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f075.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3f075.dir/SIZEOF_LONG_LONG.c.o  -o cmTC_3f075  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
 
 Determining size of size_t passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_bb0de/fast && /usr/bin/make -f CMakeFiles/cmTC_bb0de.dir/build.make CMakeFiles/cmTC_bb0de.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_bb0de.dir/SIZEOF_SIZE_T.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_bb0de.dir/SIZEOF_SIZE_T.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c"
-Linking C executable cmTC_bb0de
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb0de.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_bb0de.dir/SIZEOF_SIZE_T.c.o  -o cmTC_bb0de  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_f205e/fast && /usr/bin/make -f CMakeFiles/cmTC_f205e.dir/build.make CMakeFiles/cmTC_f205e.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_f205e.dir/SIZEOF_SIZE_T.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_f205e.dir/SIZEOF_SIZE_T.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c"
+Linking C executable cmTC_f205e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f205e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f205e.dir/SIZEOF_SIZE_T.c.o  -o cmTC_f205e  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
 
 Determining size of ssize_t passed with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_031bd/fast && /usr/bin/make -f CMakeFiles/cmTC_031bd.dir/build.make CMakeFiles/cmTC_031bd.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_031bd.dir/SIZEOF_SSIZE_T.c.o
-/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_031bd.dir/SIZEOF_SSIZE_T.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CheckTypeSize/SIZEOF_SSIZE_T.c"
-Linking C executable cmTC_031bd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_031bd.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_031bd.dir/SIZEOF_SSIZE_T.c.o  -o cmTC_031bd  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_92359/fast && /usr/bin/make -f CMakeFiles/cmTC_92359.dir/build.make CMakeFiles/cmTC_92359.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_92359.dir/SIZEOF_SSIZE_T.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_92359.dir/SIZEOF_SSIZE_T.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CheckTypeSize/SIZEOF_SSIZE_T.c"
+Linking C executable cmTC_92359
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92359.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_92359.dir/SIZEOF_SSIZE_T.c.o  -o cmTC_92359  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
 
 Performing C SOURCE FILE Test HAVE_ATOMIC_BUILTINS succeeded with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_23608/fast && /usr/bin/make -f CMakeFiles/cmTC_23608.dir/build.make CMakeFiles/cmTC_23608.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_23608.dir/src.c.o
-/usr/bin/cc -D_GNU_SOURCE  -DHAVE_ATOMIC_BUILTINS -fPIE   -o CMakeFiles/cmTC_23608.dir/src.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/src.c"
-Linking C executable cmTC_23608
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23608.dir/link.txt --verbose=1
-/usr/bin/cc  -DHAVE_ATOMIC_BUILTINS    -rdynamic CMakeFiles/cmTC_23608.dir/src.c.o  -o cmTC_23608  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_83c58/fast && /usr/bin/make -f CMakeFiles/cmTC_83c58.dir/build.make CMakeFiles/cmTC_83c58.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_83c58.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE  -DHAVE_ATOMIC_BUILTINS -fPIE   -o CMakeFiles/cmTC_83c58.dir/src.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_83c58
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83c58.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_ATOMIC_BUILTINS    -rdynamic CMakeFiles/cmTC_83c58.dir/src.c.o  -o cmTC_83c58  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
 Source file was:
 int main() { int i, x = 0; i = __sync_add_and_fetch(&x,1); return x; }
 Performing C SOURCE FILE Test HAVE___THREAD succeeded with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_3dc27/fast && /usr/bin/make -f CMakeFiles/cmTC_3dc27.dir/build.make CMakeFiles/cmTC_3dc27.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_3dc27.dir/src.c.o
-/usr/bin/cc -D_GNU_SOURCE  -DHAVE___THREAD -fPIE   -o CMakeFiles/cmTC_3dc27.dir/src.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/src.c"
-Linking C executable cmTC_3dc27
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3dc27.dir/link.txt --verbose=1
-/usr/bin/cc  -DHAVE___THREAD    -rdynamic CMakeFiles/cmTC_3dc27.dir/src.c.o  -o cmTC_3dc27  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_d4efa/fast && /usr/bin/make -f CMakeFiles/cmTC_d4efa.dir/build.make CMakeFiles/cmTC_d4efa.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_d4efa.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE  -DHAVE___THREAD -fPIE   -o CMakeFiles/cmTC_d4efa.dir/src.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_d4efa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4efa.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE___THREAD    -rdynamic CMakeFiles/cmTC_d4efa.dir/src.c.o  -o cmTC_d4efa  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
 Source file was:
 __thread int x = 0; int main() { return 0; }
 Performing C SOURCE FILE Test REENTRANT_WORKS succeeded with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_658bc/fast && /usr/bin/make -f CMakeFiles/cmTC_658bc.dir/build.make CMakeFiles/cmTC_658bc.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_658bc.dir/src.c.o
-/usr/bin/cc -D_GNU_SOURCE  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes -DREENTRANT_WORKS -fPIE   -o CMakeFiles/cmTC_658bc.dir/src.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/src.c"
-Linking C executable cmTC_658bc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_658bc.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes -DREENTRANT_WORKS    -rdynamic CMakeFiles/cmTC_658bc.dir/src.c.o  -o cmTC_658bc  -lm 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_31777/fast && /usr/bin/make -f CMakeFiles/cmTC_31777.dir/build.make CMakeFiles/cmTC_31777.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_31777.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes -DREENTRANT_WORKS -fPIE   -o CMakeFiles/cmTC_31777.dir/src.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_31777
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31777.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes -DREENTRANT_WORKS    -rdynamic CMakeFiles/cmTC_31777.dir/src.c.o  -o cmTC_31777  -lm 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
 Source file was:
@@ -1238,16 +1238,16 @@ Source file was:
 	}
 	
 Performing C SOURCE FILE Test BSYMBOLIC_WORKS succeeded with the following output:
-Change Dir: /home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp
+Change Dir: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_dc597/fast && /usr/bin/make -f CMakeFiles/cmTC_dc597.dir/build.make CMakeFiles/cmTC_dc597.dir/build
-make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_dc597.dir/src.c.o
-/usr/bin/cc -D_GNU_SOURCE  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes -DBSYMBOLIC_WORKS -fPIE   -o CMakeFiles/cmTC_dc597.dir/src.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp/src.c"
-Linking C executable cmTC_dc597
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc597.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes -DBSYMBOLIC_WORKS    -rdynamic CMakeFiles/cmTC_dc597.dir/src.c.o  -o cmTC_dc597  -lm -Wl,-Bsymbolic-functions 
-make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make cmTC_19715/fast && /usr/bin/make -f CMakeFiles/cmTC_19715.dir/build.make CMakeFiles/cmTC_19715.dir/build
+make[1]: вход в каталог «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_19715.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes -DBSYMBOLIC_WORKS -fPIE   -o CMakeFiles/cmTC_19715.dir/src.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_19715
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19715.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes -DBSYMBOLIC_WORKS    -rdynamic CMakeFiles/cmTC_19715.dir/src.c.o  -o cmTC_19715  -lm -Wl,-Bsymbolic-functions 
+make[1]: выход из каталога «/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/CMakeTmp»
 
 
 Source file was:

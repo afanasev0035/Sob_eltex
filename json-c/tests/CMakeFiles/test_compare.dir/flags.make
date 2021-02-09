@@ -6,5 +6,5 @@ C_FLAGS = -g
 
 C_DEFINES = 
 
-C_INCLUDES = -I"/home/ilya/Рабочий стол/eltex/json-c/tests/PUBLIC" -I"/home/ilya/Рабочий стол/eltex/json-c" -I"/home/ilya/Рабочий стол/eltex/json-c/tests" 
+C_INCLUDES = -I"/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/tests/PUBLIC" -I"/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c" -I"/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/tests" 
 

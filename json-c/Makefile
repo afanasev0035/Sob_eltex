@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/ilya/Рабочий стол/eltex/json-c"
+CMAKE_SOURCE_DIR = "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/ilya/Рабочий стол/eltex/json-c"
+CMAKE_BINARY_DIR = "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -104,7 +104,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/ilya/Рабочий\ стол/eltex/json-c/CPackSourceConfig.cmake
+	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/ilya/Рабочий\ стол/eltex/Sob_eltex/json-c/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -159,9 +159,9 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles" "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles" "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target

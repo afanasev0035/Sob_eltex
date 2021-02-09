@@ -1,4 +1,4 @@
-# Install script for directory: /home/ilya/Рабочий стол/eltex/json-c/apps
+# Install script for directory: /home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/apps
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/ilya/Рабочий стол/eltex/json-c"
+CMAKE_SOURCE_DIR = "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/ilya/Рабочий стол/eltex/json-c"
+CMAKE_BINARY_DIR = "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c"
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/test_util_file.dir/depend.make
@@ -59,29 +59,29 @@ include tests/CMakeFiles/test_util_file.dir/flags.make
 
 tests/CMakeFiles/test_util_file.dir/test_util_file.c.o: tests/CMakeFiles/test_util_file.dir/flags.make
 tests/CMakeFiles/test_util_file.dir/test_util_file.c.o: tests/test_util_file.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object tests/CMakeFiles/test_util_file.dir/test_util_file.c.o"
-	cd "/home/ilya/Рабочий стол/eltex/json-c/tests" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test_util_file.dir/test_util_file.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/tests/test_util_file.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object tests/CMakeFiles/test_util_file.dir/test_util_file.c.o"
+	cd "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/tests" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test_util_file.dir/test_util_file.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/tests/test_util_file.c"
 
 tests/CMakeFiles/test_util_file.dir/test_util_file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test_util_file.dir/test_util_file.c.i"
-	cd "/home/ilya/Рабочий стол/eltex/json-c/tests" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/ilya/Рабочий стол/eltex/json-c/tests/test_util_file.c" > CMakeFiles/test_util_file.dir/test_util_file.c.i
+	cd "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/tests" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/tests/test_util_file.c" > CMakeFiles/test_util_file.dir/test_util_file.c.i
 
 tests/CMakeFiles/test_util_file.dir/test_util_file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test_util_file.dir/test_util_file.c.s"
-	cd "/home/ilya/Рабочий стол/eltex/json-c/tests" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/ilya/Рабочий стол/eltex/json-c/tests/test_util_file.c" -o CMakeFiles/test_util_file.dir/test_util_file.c.s
+	cd "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/tests" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/tests/test_util_file.c" -o CMakeFiles/test_util_file.dir/test_util_file.c.s
 
 tests/CMakeFiles/test_util_file.dir/__/strerror_override.c.o: tests/CMakeFiles/test_util_file.dir/flags.make
 tests/CMakeFiles/test_util_file.dir/__/strerror_override.c.o: strerror_override.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object tests/CMakeFiles/test_util_file.dir/__/strerror_override.c.o"
-	cd "/home/ilya/Рабочий стол/eltex/json-c/tests" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test_util_file.dir/__/strerror_override.c.o   -c "/home/ilya/Рабочий стол/eltex/json-c/strerror_override.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object tests/CMakeFiles/test_util_file.dir/__/strerror_override.c.o"
+	cd "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/tests" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test_util_file.dir/__/strerror_override.c.o   -c "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/strerror_override.c"
 
 tests/CMakeFiles/test_util_file.dir/__/strerror_override.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test_util_file.dir/__/strerror_override.c.i"
-	cd "/home/ilya/Рабочий стол/eltex/json-c/tests" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/ilya/Рабочий стол/eltex/json-c/strerror_override.c" > CMakeFiles/test_util_file.dir/__/strerror_override.c.i
+	cd "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/tests" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/strerror_override.c" > CMakeFiles/test_util_file.dir/__/strerror_override.c.i
 
 tests/CMakeFiles/test_util_file.dir/__/strerror_override.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test_util_file.dir/__/strerror_override.c.s"
-	cd "/home/ilya/Рабочий стол/eltex/json-c/tests" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/ilya/Рабочий стол/eltex/json-c/strerror_override.c" -o CMakeFiles/test_util_file.dir/__/strerror_override.c.s
+	cd "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/tests" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/strerror_override.c" -o CMakeFiles/test_util_file.dir/__/strerror_override.c.s
 
 # Object files for target test_util_file
 test_util_file_OBJECTS = \
@@ -96,8 +96,8 @@ tests/test_util_file: tests/CMakeFiles/test_util_file.dir/__/strerror_override.c
 tests/test_util_file: tests/CMakeFiles/test_util_file.dir/build.make
 tests/test_util_file: libjson-c.so.5.1.0
 tests/test_util_file: tests/CMakeFiles/test_util_file.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable test_util_file"
-	cd "/home/ilya/Рабочий стол/eltex/json-c/tests" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_util_file.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable test_util_file"
+	cd "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/tests" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_util_file.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/test_util_file.dir/build: tests/test_util_file
@@ -105,10 +105,10 @@ tests/CMakeFiles/test_util_file.dir/build: tests/test_util_file
 .PHONY : tests/CMakeFiles/test_util_file.dir/build
 
 tests/CMakeFiles/test_util_file.dir/clean:
-	cd "/home/ilya/Рабочий стол/eltex/json-c/tests" && $(CMAKE_COMMAND) -P CMakeFiles/test_util_file.dir/cmake_clean.cmake
+	cd "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/tests" && $(CMAKE_COMMAND) -P CMakeFiles/test_util_file.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/test_util_file.dir/clean
 
 tests/CMakeFiles/test_util_file.dir/depend:
-	cd "/home/ilya/Рабочий стол/eltex/json-c" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/ilya/Рабочий стол/eltex/json-c" "/home/ilya/Рабочий стол/eltex/json-c/tests" "/home/ilya/Рабочий стол/eltex/json-c" "/home/ilya/Рабочий стол/eltex/json-c/tests" "/home/ilya/Рабочий стол/eltex/json-c/tests/CMakeFiles/test_util_file.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c" "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/tests" "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c" "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/tests" "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/tests/CMakeFiles/test_util_file.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : tests/CMakeFiles/test_util_file.dir/depend
 

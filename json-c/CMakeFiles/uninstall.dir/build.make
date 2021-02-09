@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/ilya/Рабочий стол/eltex/json-c"
+CMAKE_SOURCE_DIR = "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/ilya/Рабочий стол/eltex/json-c"
+CMAKE_BINARY_DIR = "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c"
 
 # Utility rule file for uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = "/home/ilya/Рабочий стол/eltex/json-c"
 include CMakeFiles/uninstall.dir/progress.make
 
 CMakeFiles/uninstall:
-	cat /home/ilya/Рабочий\ стол/eltex/json-c/install_manifest.txt | xargs rm
+	cat /home/ilya/Рабочий\ стол/eltex/Sob_eltex/json-c/install_manifest.txt | xargs rm
 
 uninstall: CMakeFiles/uninstall
 uninstall: CMakeFiles/uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd "/home/ilya/Рабочий стол/eltex/json-c" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/ilya/Рабочий стол/eltex/json-c" "/home/ilya/Рабочий стол/eltex/json-c" "/home/ilya/Рабочий стол/eltex/json-c" "/home/ilya/Рабочий стол/eltex/json-c" "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/uninstall.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c" "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c" "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c" "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c" "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/uninstall.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

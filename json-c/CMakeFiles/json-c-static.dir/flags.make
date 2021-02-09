@@ -6,5 +6,5 @@ C_FLAGS =  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-er
 
 C_DEFINES = -D_GNU_SOURCE
 
-C_INCLUDES = -I"/home/ilya/Рабочий стол/eltex/json-c" 
+C_INCLUDES = -I"/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c" 
 

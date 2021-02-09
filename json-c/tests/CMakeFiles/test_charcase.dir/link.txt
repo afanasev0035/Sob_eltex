@@ -1,1 +1,1 @@
-/usr/bin/cc -g  -rdynamic CMakeFiles/test_charcase.dir/test_charcase.c.o  -o test_charcase  -Wl,-rpath,"/home/ilya/Рабочий стол/eltex/json-c" ../libjson-c.so.5.1.0 
+/usr/bin/cc -g  -rdynamic CMakeFiles/test_charcase.dir/test_charcase.c.o  -o test_charcase  -Wl,-rpath,"/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c" ../libjson-c.so.5.1.0 

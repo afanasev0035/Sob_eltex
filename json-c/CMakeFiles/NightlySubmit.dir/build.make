@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/ilya/Рабочий стол/eltex/json-c"
+CMAKE_SOURCE_DIR = "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/ilya/Рабочий стол/eltex/json-c"
+CMAKE_BINARY_DIR = "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c"
 
 # Utility rule file for NightlySubmit.
 
@@ -71,6 +71,6 @@ CMakeFiles/NightlySubmit.dir/clean:
 .PHONY : CMakeFiles/NightlySubmit.dir/clean
 
 CMakeFiles/NightlySubmit.dir/depend:
-	cd "/home/ilya/Рабочий стол/eltex/json-c" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/ilya/Рабочий стол/eltex/json-c" "/home/ilya/Рабочий стол/eltex/json-c" "/home/ilya/Рабочий стол/eltex/json-c" "/home/ilya/Рабочий стол/eltex/json-c" "/home/ilya/Рабочий стол/eltex/json-c/CMakeFiles/NightlySubmit.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c" "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c" "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c" "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c" "/home/ilya/Рабочий стол/eltex/Sob_eltex/json-c/CMakeFiles/NightlySubmit.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/NightlySubmit.dir/depend
 
