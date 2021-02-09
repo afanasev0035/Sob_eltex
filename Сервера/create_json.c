@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <malloc.h>
-#include "../json-c/json.h"
+#include "../lib/json-c/json.h"
 
 char *create_json(char ***str, int stroki, int slova, int len, int slov_v_zagolovke, char *pathname)
 {

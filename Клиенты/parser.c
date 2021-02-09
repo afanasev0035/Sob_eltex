@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "../json-c/json.h"
+#include "../lib/json-c/json.h"
 void parser(char* buffer)
 {
     

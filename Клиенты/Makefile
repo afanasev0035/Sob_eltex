@@ -1,7 +1,7 @@
 all: main
 
 main: DieWithError.o main.o parser.o TCPclient.o UDPclient.o
-		gcc -Wall DieWithError.o main.o parser.o TCPclient.o UDPclient.o -o client -std=c99 -L../json-c -ljson-c
+		gcc -Wall DieWithError.o main.o parser.o TCPclient.o UDPclient.o -o client -std=c99  -L../lib/json-c -ljson-c -Wl,-rpath,../lib/json-s
 
 DieWithError: DieWithError.c
 		gcc -c -Wall DieWithError.c -std=c99
