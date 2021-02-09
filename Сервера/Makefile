@@ -1,7 +1,7 @@
 all: Server
 
 Server: main.o TCPServer.o UDPServer.o CreateTCPServerSocket.o CreateUDPServerSocket.o AcceptTCPConnection.o HandleTCPClient.o DieWithError.o        Processing_reqest.o razbivka.o create_json.o
-		 	gcc  -pthread main.o TCPServer.o UDPServer.o CreateTCPServerSocket.o CreateUDPServerSocket.o AcceptTCPConnection.o HandleTCPClient.o DieWithError.o        Processing_reqest.o razbivka.o create_json.o -o server -L.. -ljson-c -std=c99 
+		 	gcc  -pthread main.o TCPServer.o UDPServer.o CreateTCPServerSocket.o CreateUDPServerSocket.o AcceptTCPConnection.o HandleTCPClient.o DieWithError.o        Processing_reqest.o razbivka.o create_json.o -o server -L../json-c -ljson-c -std=c99 
 
 DieWithError.o: DieWithError.c
 			gcc -c -Wall DieWithError.c -std=c99

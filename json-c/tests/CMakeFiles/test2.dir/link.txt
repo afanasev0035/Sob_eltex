@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/test2.dir/test2.c.o  -o test2  -Wl,-rpath,"/home/ilya/Рабочий стол/eltex/json-c" ../libjson-c.so.5.1.0 
