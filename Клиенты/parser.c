@@ -7,7 +7,7 @@ void parser(char *buffer)
     struct json_object *object;
 
     size_t quntity = 0;
-    if (strlen(buffer) == 3)
+    if (strlen(buffer) <= 3)
     {
         printf("Запрос введен не корректно\n");
     }

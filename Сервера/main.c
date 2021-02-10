@@ -12,10 +12,10 @@ int main()
     int protocol;
     printf("Укажите порт сервера \n");
     scanf("%d", &port);
-    printf("Укажите какое кол-во людей может обслуживать сервер \n");
+    printf("Укажите какое кол-во людей может обслужить сервер \n");
     scanf("%d", &man);
     
-    printf("Выберите типа соединения 1 - TCP; 2 - UDP \n");
+    printf("Выберите тип соединения 1 - TCP; 2 - UDP \n");
     scanf("%d", &protocol);
 
     if (protocol == 1)

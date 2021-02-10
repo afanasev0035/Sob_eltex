@@ -48,7 +48,7 @@ void TCPclient(unsigned int ServPort, char *servIP, char *reqest)
     reqestString = (char *)realloc(reqestString, (size_buffer + 2) * sizeof(char)); /* Готовлю строку */
 
     
-    if ((recv(sock, reqestString, size_buffer, 0)) <= 0)    /* Читаю строку */
+    if ((recv(sock, reqestString, size_buffer, 0)) < 0)    /* Читаю строку */
         DieWithError("recv() failed read msg");
     parser(reqestString);                                   /* Расшифровываю JSON сообщение */
     free(reqestString);                                     /* Освобождаю строку */
