@@ -1,15 +1,7 @@
-#include <stdio.h>      
-#include <sys/socket.h> 
-#include <arpa/inet.h>  
-#include <stdlib.h>     
-#include <string.h>     
-#include <unistd.h>     
-
+#include "Client.h"
 #define SIZEBUFFER 100  /* Первоначальный размер строки запроса */    
-void parser(char* buffer);
-void DieWithError(char *errorMessage);  
 
-void UDPclient(int ServPort, char *servIP, char *reqest)
+void UDPclient(unsigned int ServPort, char *servIP, char *reqest)
 {
     int sock;                        /* Сокет клиента */
     struct sockaddr_in ServAddr;     /* Структура адреса сервера */

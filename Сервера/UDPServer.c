@@ -1,16 +1,8 @@
-#include <stdio.h>      
-#include <sys/socket.h> 
-#include <arpa/inet.h>  
-#include <stdlib.h>     
-#include <string.h>     
-#include <unistd.h>     
-#include <pthread.h>     
-#include <stdbool.h>
+#include "Server.h" 
 #define SIZEBUFFER 100  /* Первоначальный размер строки запроса */  
 
-char *Processing_request(char *reqest); /* Функция для формирования ответа на запрос */
-int CreateUDPServerSocket(unsigned short port); /* Функция для формирования сокета */
-void DieWithError(char *errorMessage); 
+
+
 struct ThreadArgs
 {
     int clntPort;

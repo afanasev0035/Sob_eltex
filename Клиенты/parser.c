@@ -1,17 +1,16 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include "../lib/json-c/json.h"
-void parser(char* buffer)
+#include "Client.h"  
+void parser(char *buffer)
 {
-    
 
     struct json_object *parsed_json;
     struct json_object *objects;
     struct json_object *object;
 
     size_t quntity = 0;
-
-    
+    if (strlen(buffer) == 3)
+    {
+        printf("Запрос введен не корректно\n");
+    }
 
     parsed_json = json_tokener_parse(buffer);
 
@@ -70,7 +69,6 @@ void parser(char* buffer)
     if (objects != NULL)
     {
         quntity = json_object_array_length(objects);
-        printf("Interface: ");
 
         for (int i = 0; i < quntity; i++)
         {
@@ -99,15 +97,19 @@ void parser(char* buffer)
         for (int i = 0; i < quntity; i++)
         {
             object = json_object_array_get_idx(objects, i);
-            json_object_object_get_ex(object, "Раздел", &name);
+            json_object_object_get_ex(object, "Параметр", &name);
             json_object_object_get_ex(object, "всего", &total);
             json_object_object_get_ex(object, "занято", &busy);
             json_object_object_get_ex(object, "свободно", &free);
             json_object_object_get_ex(object, "общая", &general);
             json_object_object_get_ex(object, "буф./врем.", &buff_tim);
             json_object_object_get_ex(object, "доступно", &available);
+            if (strncmp(json_object_get_string(name), "Подкачка:", 18) == 0)
+            printf("%s%s\t%s\t%s\t\n", json_object_get_string(name), json_object_get_string(total), json_object_get_string(busy),
+                   json_object_get_string(free));
+            else{
             printf("%s%s\t%s\t%s\t%s\t%s\t   %s\n", json_object_get_string(name), json_object_get_string(total), json_object_get_string(busy),
-                   json_object_get_string(free), json_object_get_string(general), json_object_get_string(buff_tim), json_object_get_string(available));
+                   json_object_get_string(free), json_object_get_string(general), json_object_get_string(buff_tim), json_object_get_string(available));}
         }
         object = NULL;
         objects = NULL;

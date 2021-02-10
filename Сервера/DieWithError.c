@@ -1,5 +1,5 @@
-#include <stdio.h>  /* for perror() */
-#include <stdlib.h> /* for exit() */
+#include "Server.h"
+
 
 void DieWithError(char *errorMessage)
 {

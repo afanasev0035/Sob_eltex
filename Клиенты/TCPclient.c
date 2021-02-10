@@ -1,14 +1,8 @@
-#include <stdio.h>      
-#include <sys/socket.h> 
-#include <arpa/inet.h>  
-#include <stdlib.h>     
-#include <string.h>     
-#include <unistd.h>     
+#include "Client.h"    
 #define len 20
 #define SIZEBUFFER 100  /* Первоначальный размер строки запроса */
 
-void DieWithError(char *errorMessage); /* Оброботчик ошибок */
-void parser(char *buffer); /* Функция для расшивровки JSON ответа */
+
 void TCPclient(unsigned int ServPort, char *servIP, char *reqest)
 {
     int sock;                        /* Сокет клиента */

@@ -1,13 +1,9 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <sys/socket.h>
-#include <unistd.h>
-#include <malloc.h>
-#include <string.h>
+#include "Server.h"
+
 #define SIZEBUFFER 100
 #define SIZELEN 10
-void DieWithError(char *errorMessage);
-char *Processing_request(char *reqest); /* Функция для формирования ответа на запрос */
+
+
 void HandleTCPClient(int clntSocket)
 {
     char reqestString [SIZEBUFFER]; /* Строка для записи запроса от клиента */

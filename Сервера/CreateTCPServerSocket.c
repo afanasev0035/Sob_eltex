@@ -1,10 +1,8 @@
-#include <sys/socket.h> 
-#include <arpa/inet.h>  
-#include <string.h>     
+   
+#include "Server.h" 
 
 
-
-void DieWithError(char *errorMessage);  
+ 
 
 int CreateTCPServerSocket(unsigned short port, int man) /* Функция для создания сокета сервера */
 {

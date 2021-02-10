@@ -1,5 +1,4 @@
-#include <stdio.h>  
-#include <stdlib.h> 
+#include "Client.h"
 
 void DieWithError(char *errorMessage)
 {

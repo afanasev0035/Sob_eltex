@@ -1,8 +1,6 @@
-#include <stdio.h>      
-#include <sys/socket.h> 
-#include <arpa/inet.h>  
+ 
+#include "Server.h" 
 
-void DieWithError(char *errorMessage);  
 
 int AcceptTCPConnection(int servSock)
 {

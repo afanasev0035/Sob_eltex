@@ -1,16 +1,13 @@
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
+#include "Client.h"
 #define len 20
-void TCPclient(unsigned int port, char *address, char *reqest);
-void UDPclient(unsigned int port, char *address, char *reqest);
+
 int main()
 {
     int protocol;
     char address[len];
     unsigned int port;
     char reqest[len];
-    printf("Выберите типа соединения 1 - TCP; 2 - UDP \n");
+    printf("Выберите тип соединения 1 - TCP; 2 - UDP \n");
     scanf("%d", &protocol);
     getchar();
     printf("Укажите адрес сервера \n");
@@ -21,7 +18,7 @@ int main()
     printf("В программе реализованы следующие запросы\n");
     printf("1 - Состояние RAM\n");
     printf("2 - Текаущая загрузка ЦП\n");
-    printf("3 - Состояние и свободное место на дисках\n");
+    printf("3 - Состояние и свободное место на жестких дисках\n");
     printf("4 - Список интерфейсоф\n");
     fgets(reqest, len, stdin);
   

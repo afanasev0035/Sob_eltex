@@ -1,8 +1,6 @@
-#include "TCPEchoServer.h" 
-#include <pthread.h>       
-#include <stdbool.h>
+#include "Server.h" 
 #define SIZEBUFFER 100
-void *ThreadMainTCP(void *arg); /* Программа потока */
+
 
 /* Структура переменных для передачи клиенту в поток */
 struct ThreadArgs
