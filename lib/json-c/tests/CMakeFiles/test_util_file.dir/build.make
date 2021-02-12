@@ -94,7 +94,7 @@ test_util_file_EXTERNAL_OBJECTS =
 tests/test_util_file: tests/CMakeFiles/test_util_file.dir/test_util_file.c.o
 tests/test_util_file: tests/CMakeFiles/test_util_file.dir/__/strerror_override.c.o
 tests/test_util_file: tests/CMakeFiles/test_util_file.dir/build.make
-tests/test_util_file: libjson-c.a
+tests/test_util_file: libjson-c.so.5.1.0
 tests/test_util_file: tests/CMakeFiles/test_util_file.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ilya/Рабочий стол/eltex/Sob_eltex/lib/json-c/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable test_util_file"
 	cd "/home/ilya/Рабочий стол/eltex/Sob_eltex/lib/json-c/tests" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_util_file.dir/link.txt --verbose=$(VERBOSE)

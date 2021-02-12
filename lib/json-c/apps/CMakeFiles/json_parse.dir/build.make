@@ -79,7 +79,7 @@ json_parse_EXTERNAL_OBJECTS =
 
 apps/json_parse: apps/CMakeFiles/json_parse.dir/json_parse.c.o
 apps/json_parse: apps/CMakeFiles/json_parse.dir/build.make
-apps/json_parse: libjson-c.a
+apps/json_parse: libjson-c.so.5.1.0
 apps/json_parse: apps/CMakeFiles/json_parse.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ilya/Рабочий стол/eltex/Sob_eltex/lib/json-c/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable json_parse"
 	cd "/home/ilya/Рабочий стол/eltex/Sob_eltex/lib/json-c/apps" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/json_parse.dir/link.txt --verbose=$(VERBOSE)

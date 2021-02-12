@@ -94,7 +94,7 @@ test_strerror_EXTERNAL_OBJECTS =
 tests/test_strerror: tests/CMakeFiles/test_strerror.dir/test_strerror.c.o
 tests/test_strerror: tests/CMakeFiles/test_strerror.dir/__/strerror_override.c.o
 tests/test_strerror: tests/CMakeFiles/test_strerror.dir/build.make
-tests/test_strerror: libjson-c.a
+tests/test_strerror: libjson-c.so.5.1.0
 tests/test_strerror: tests/CMakeFiles/test_strerror.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ilya/Рабочий стол/eltex/Sob_eltex/lib/json-c/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable test_strerror"
 	cd "/home/ilya/Рабочий стол/eltex/Sob_eltex/lib/json-c/tests" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_strerror.dir/link.txt --verbose=$(VERBOSE)

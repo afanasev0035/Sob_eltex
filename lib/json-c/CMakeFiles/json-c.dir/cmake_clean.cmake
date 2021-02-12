@@ -12,8 +12,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/json-c.dir/printbuf.c.o"
   "CMakeFiles/json-c.dir/random_seed.c.o"
   "CMakeFiles/json-c.dir/strerror_override.c.o"
-  "libjson-c.a"
   "libjson-c.pdb"
+  "libjson-c.so"
+  "libjson-c.so.5"
+  "libjson-c.so.5.1.0"
 )
 
 # Per-language clean rules from dependency scanning.

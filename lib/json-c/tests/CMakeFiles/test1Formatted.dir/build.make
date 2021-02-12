@@ -94,7 +94,7 @@ test1Formatted_EXTERNAL_OBJECTS =
 tests/test1Formatted: tests/CMakeFiles/test1Formatted.dir/test1.c.o
 tests/test1Formatted: tests/CMakeFiles/test1Formatted.dir/parse_flags.c.o
 tests/test1Formatted: tests/CMakeFiles/test1Formatted.dir/build.make
-tests/test1Formatted: libjson-c.a
+tests/test1Formatted: libjson-c.so.5.1.0
 tests/test1Formatted: tests/CMakeFiles/test1Formatted.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ilya/Рабочий стол/eltex/Sob_eltex/lib/json-c/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable test1Formatted"
 	cd "/home/ilya/Рабочий стол/eltex/Sob_eltex/lib/json-c/tests" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test1Formatted.dir/link.txt --verbose=$(VERBOSE)

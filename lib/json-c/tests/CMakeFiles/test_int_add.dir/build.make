@@ -79,7 +79,7 @@ test_int_add_EXTERNAL_OBJECTS =
 
 tests/test_int_add: tests/CMakeFiles/test_int_add.dir/test_int_add.c.o
 tests/test_int_add: tests/CMakeFiles/test_int_add.dir/build.make
-tests/test_int_add: libjson-c.a
+tests/test_int_add: libjson-c.so.5.1.0
 tests/test_int_add: tests/CMakeFiles/test_int_add.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ilya/Рабочий стол/eltex/Sob_eltex/lib/json-c/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable test_int_add"
 	cd "/home/ilya/Рабочий стол/eltex/Sob_eltex/lib/json-c/tests" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_int_add.dir/link.txt --verbose=$(VERBOSE)

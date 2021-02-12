@@ -15,10 +15,10 @@
 ########################
 
 //Default to building shared libraries
-BUILD_SHARED_LIBS:BOOL=OFF
+BUILD_SHARED_LIBS:BOOL=ON
 
 //Default to building static libraries
-BUILD_STATIC_LIBS:BOOL=ON
+BUILD_STATIC_LIBS:BOOL=OFF
 
 //Build the testing tree.
 BUILD_TESTING:BOOL=ON

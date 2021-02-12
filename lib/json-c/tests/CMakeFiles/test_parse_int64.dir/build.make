@@ -79,7 +79,7 @@ test_parse_int64_EXTERNAL_OBJECTS =
 
 tests/test_parse_int64: tests/CMakeFiles/test_parse_int64.dir/test_parse_int64.c.o
 tests/test_parse_int64: tests/CMakeFiles/test_parse_int64.dir/build.make
-tests/test_parse_int64: libjson-c.a
+tests/test_parse_int64: libjson-c.so.5.1.0
 tests/test_parse_int64: tests/CMakeFiles/test_parse_int64.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ilya/Рабочий стол/eltex/Sob_eltex/lib/json-c/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable test_parse_int64"
 	cd "/home/ilya/Рабочий стол/eltex/Sob_eltex/lib/json-c/tests" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_parse_int64.dir/link.txt --verbose=$(VERBOSE)

@@ -51,7 +51,7 @@ if(_IMPORT_PREFIX STREQUAL "/")
 endif()
 
 # Create imported target json-c::json-c
-add_library(json-c::json-c STATIC IMPORTED)
+add_library(json-c::json-c SHARED IMPORTED)
 
 set_target_properties(json-c::json-c PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"

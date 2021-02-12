@@ -79,7 +79,7 @@ test_double_serializer_EXTERNAL_OBJECTS =
 
 tests/test_double_serializer: tests/CMakeFiles/test_double_serializer.dir/test_double_serializer.c.o
 tests/test_double_serializer: tests/CMakeFiles/test_double_serializer.dir/build.make
-tests/test_double_serializer: libjson-c.a
+tests/test_double_serializer: libjson-c.so.5.1.0
 tests/test_double_serializer: tests/CMakeFiles/test_double_serializer.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ilya/Рабочий стол/eltex/Sob_eltex/lib/json-c/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable test_double_serializer"
 	cd "/home/ilya/Рабочий стол/eltex/Sob_eltex/lib/json-c/tests" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_double_serializer.dir/link.txt --verbose=$(VERBOSE)
